@@ -1,0 +1,35 @@
+{
+  "name": "react16",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "rescripts build",
+    "eject": "rescripts eject",
+    "start": "rescripts start",
+    "test": "rescripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "antd": "^3.25.2",
+    "qiankun": "2.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-monaco-editor": "0.43.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.14",
+    "react-scripts": "^3.4.1"
+  }
+}
